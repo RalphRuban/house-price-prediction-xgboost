@@ -35,22 +35,38 @@ A Machine Learning project that predicts house prices using the XGBoost Regressi
 house-price-prediction-xgboost/
 
 ├── dataset/
+
 │ └── Bangalore_House_Data.csv
+
 │
+
 ├── models/
+
 │ ├── model.pkl
+
 │ └── columns.pkl
+
 │
 ├── screenshots/
+
 │ ├── app.png
+
 │ ├── prediction.png
+
 │ └── shap.png
+
 │
+
 ├── train_model.py
+
 ├── app.py
+
 ├── main.py
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
 
 ---
@@ -98,6 +114,7 @@ Run Streamlit App
 ```bash
 streamlit run app.py
 ```
+--- 
 
 # 🧠 Machine Learning Workflow
 
@@ -110,10 +127,14 @@ streamlit run app.py
 - Deploy using Streamlit
 - Explain Predictions using SHAP
 
+---
+
 # 📈 Model Performance
 - Model Used: XGBoost Regressor
 - Evaluation Metric: RMSE
 - Dataset: Bangalore Housing Dataset
+
+---
 
 # 🔍 SHAP Explainability
 SHAP (SHapley Additive Explanations) is integrated to explain predictions.
@@ -122,6 +143,8 @@ SHAP (SHapley Additive Explanations) is integrated to explain predictions.
 - Feature contribution analysis
 - SHAP waterfall plots
 - Model transparency
+
+---
 
 # 📸 Screenshots
 Streamlit Web App
@@ -134,6 +157,8 @@ SHAP Explanation
 ![Figure_1.png](Figure_1.png)
 ![Figure_2.png](Figure_2.png)
 
+---
+
 # 🔮 Future Enhancements
 
 - Multi-city house price prediction
@@ -141,6 +166,8 @@ SHAP Explanation
 - Deep learning integration
 - Real-time real estate API integration
 - Advanced feature engineering
+
+---
 
 # 👨‍💻 Author
 Ralph Ruban M
