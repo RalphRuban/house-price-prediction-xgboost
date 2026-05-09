@@ -80,19 +80,24 @@ git clone https://github.com/RalphRuban/house-price-prediction-xgboost.git
 cd house-price-prediction-xgboost
 ```
 2️⃣ Move into Project Folder
-
+```bash
 cd house-price-prediction-xgboost
-
+```
 3️⃣ Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 ▶️ Run the Project
 
 Train the Model
+```bash
 python train_model.py
+```
+
 Run Streamlit App
+```bash
 streamlit run app.py
+```
 
 🧠 Machine Learning Workflow
 
@@ -130,6 +135,7 @@ SHAP Explanation
 ![Figure_2.png](Figure_2.png)
 
 🔮 Future Enhancements
+
 Multi-city house price prediction
 Cloud deployment
 Deep learning integration
