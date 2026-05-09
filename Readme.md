@@ -73,21 +73,21 @@ https://www.kaggle.com/
 
 # ⚙️ Installation
 
-1️⃣ Clone Repository
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/RalphRuban/house-price-prediction-xgboost.git
 cd house-price-prediction-xgboost
 ```
-2️⃣ Move into Project Folder
+## 2️⃣ Move into Project Folder
 ```bash
 cd house-price-prediction-xgboost
 ```
-3️⃣ Install Dependencies
+## b3️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-▶️ Run the Project
+## ▶️ Run the Project
 
 Train the Model
 ```bash
@@ -99,31 +99,31 @@ Run Streamlit App
 streamlit run app.py
 ```
 
-🧠 Machine Learning Workflow
+# 🧠 Machine Learning Workflow
 
-Load CSV Dataset
-Data Preprocessing
-Feature Engineering
-Train XGBoost Model
-Evaluate Model using RMSE
-Save Model using Joblib
-Deploy using Streamlit
-Explain Predictions using SHAP
+- Load CSV Dataset
+- Data Preprocessing
+- Feature Engineering
+- Train XGBoost Model
+- Evaluate Model using RMSE
+- Save Model using Joblib
+- Deploy using Streamlit
+- Explain Predictions using SHAP
 
-📈 Model Performance
-Model Used: XGBoost Regressor
-Evaluation Metric: RMSE
-Dataset: Bangalore Housing Dataset
+# 📈 Model Performance
+- Model Used: XGBoost Regressor
+- Evaluation Metric: RMSE
+- Dataset: Bangalore Housing Dataset
 
-🔍 SHAP Explainability
+# 🔍 SHAP Explainability
 SHAP (SHapley Additive Explanations) is integrated to explain predictions.
 
-The system provides:
-Feature contribution analysis
-SHAP waterfall plots
-Model transparency
+## The system provides:
+- Feature contribution analysis
+- SHAP waterfall plots
+- Model transparency
 
-📸 Screenshots
+# 📸 Screenshots
 Streamlit Web App
 ![Dashboard.png](Dashboard.png)
 
@@ -134,16 +134,16 @@ SHAP Explanation
 ![Figure_1.png](Figure_1.png)
 ![Figure_2.png](Figure_2.png)
 
-🔮 Future Enhancements
+# 🔮 Future Enhancements
 
-Multi-city house price prediction
-Cloud deployment
-Deep learning integration
-Real-time real estate API integration
-Advanced feature engineering
+- Multi-city house price prediction
+- Cloud deployment
+- Deep learning integration
+- Real-time real estate API integration
+- Advanced feature engineering
 
-👨‍💻 Author
+# 👨‍💻 Author
 Ralph Ruban M
 
-⭐ Support
+# ⭐ Support
 If you like this project, give it a star ⭐ on GitHub.
